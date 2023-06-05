@@ -15,3 +15,15 @@ Second, use the SNOTEL_L0_QC file to remove the daily QC'd value in the midnight
 Third, use the SNOTEL_L1_L2_QC file to automate the Level 1 and Level 2 process. 
 
 If you wish to manually clean the data (Level 3), please contact anne.heggli@dri.edu for the Level 3 process. I am happy to share and help, but it is a bit complicated so I would prefer to walk anyone through my methods if they would like to use them. 
+
+QA & QC FLAGS:
+  Flag : Name : Description
+Quality Assurance (QA) Flags
+  R : Raw         : No Human Review
+  F : Flagged	    : Automated QC Flag Assigned
+  P : Provisional : Preliminary Human Review
+  A : Approved    : Processing and Final Review Completed
+Quality Control (QC) Flags
+  V : Valid   : Valid observed value
+  E : Edit    : Edit existing value
+  S : Suspect : Suspect value
